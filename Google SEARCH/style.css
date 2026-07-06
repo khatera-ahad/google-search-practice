@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(177, 162, 190);
+
+}
+header{
+    background-color: rgb(168, 43, 147);
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+.header h2{
+    font-size: 20px;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+margin-left: 25px;
+}
+nav ul li a:hover{
+    color:rgb(133, 7, 70);
+
+}
+.book h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.book p{
+    font-size: 18px;
+    margin-bottom: 19px;
+    align-content: center;
+
+}
+.book button{
+    background-color: rgb(64, 3, 66);
+    color:rgb(9, 10, 10);
+    border:none;
+    padding: 12px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+footer{
+    background-color:  rgb(177, 162, 190);
+    color: rgb(216, 209, 219);
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
